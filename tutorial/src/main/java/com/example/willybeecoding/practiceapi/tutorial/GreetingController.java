@@ -8,6 +8,6 @@ public class GreetingController {
 
     @RequestMapping("/")
     public String getGreeting() {
-        return "Hi there! This is a test message for this API!!";
+        return "Hi there! This is a test message for this API!";
     }
 }
